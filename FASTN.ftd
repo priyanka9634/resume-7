@@ -1,0 +1,32 @@
+-- import: fastn
+
+-- fastn.package: priyanka9634.github.io/resume-7
+download-base-url: https://raw.githubusercontent.com/fifthtry/resume-7/main
+
+-- fastn.dependency: fastn-community.github.io/doc-site as ds
+-- fastn.dependency: fifthtry.github.io/resume
+-- fastn.dependency: fastn-community.github.io/site-doc
+-- fastn.dependency: fastn-community.github.io/code-block
+
+-- fastn.auto-import: ds
+-- fastn.auto-import: fastn
+-- fastn.auto-import: fastn-community.github.io/site-doc
+
+
+
+
+-- fastn.sitemap:
+
+# Home: /index.html
+
+# Docs: components/
+- Basic: components/basic
+- Education: components/education
+- Language: components/language
+- Location: components/location
+- Profile: components/profile
+- Skills: components/skills
+- Work: components/work
+- Project: components/project
+
+

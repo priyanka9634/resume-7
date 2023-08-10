@@ -1,0 +1,57 @@
+-- import: fastn-community.github.io/code-block as cb
+-- import: priyanka9634.github.io/resume-7
+-- import: fifthtry.github.io/resume/sample as s
+
+
+-- site-doc.doc-home: Documentation
+site-title: resume-7
+show-tabs: false
+
+-- site-doc.component-doc: `resume-7`
+package-link: priyanka9634.github.io/resume-7
+package-name: priyanka9634.github.io/resume-7
+info: `-- resume-7` can be used as resume on your fastn web projects.
+
+-- site-doc.output:
+colors: $ftd.default-colors
+
+-- resume-7.show-resume:
+resume: $s.john-doe
+
+-- end: site-doc.output
+
+-- site-doc.header: How to use
+
+-- cb.code: Add `resume` dependency into your FASTN.ftd
+lang: ftd
+
+\-- fastn.dependency: fifthtry.github.io/resume
+\-- fastn.dependency: priyanka9634.github.io/resume-7
+
+-- cb.code: Import `resume` into your `.ftd` file
+lang: ftd
+
+\-- import: priyanka9634.github.io/resume-7
+\-- import: fifthtry.github.io/resume as cv
+
+-- cb.code: Write below code to your `.ftd` file
+lang: ftd
+
+\-- cv.resume john-doe:
+
+-- site-doc.header: Once you are done with updating all the details just copy below code to your `.ftd` file.
+
+-- cb.code:
+lang: ftd
+
+\-- ds.page:
+widthfill: true
+
+\-- caffeine.show-resume:
+resume: $john-doe
+
+\-- end: ds.page
+
+-- end: site-doc.component-doc
+
+-- end: site-doc.doc-home
